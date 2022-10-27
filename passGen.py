@@ -139,7 +139,7 @@ shifr1 = ['1q','2a', 'zxc', '4x', '5c','V8', '7b', '8n', '9m','_l',
          'LOL', '4F', '5j', '6z', '7p', '8I', '9t', 'QbZ']
 
 logins = dict()
-file = open(r"C:\Users\Sergio-MSI\Desktop\Password Generator\UsersDict.txt", 'r', encoding='UTF-8')
+file = open(r"UsersDict.txt", 'r', encoding='UTF-8')
 getalllines = file.readlines()
 for item in getalllines:
     datalist = item.split('   ')
